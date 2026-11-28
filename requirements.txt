@@ -1,4 +1,6 @@
-fastapi
+fastapi>=0.165.0,<1
+pydantic>=2,<3
 uvicorn
 python-dotenv
 python-multipart
+httpx2>=2,<3  # FastAPI TestClient transport
